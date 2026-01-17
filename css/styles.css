@@ -1,13 +1,130 @@
 /* font-family Roboto, Raleway*/
 
- /* .header__nav-link:hover, .header__nav-link:focus {
-    color: #2196f3;
-  }*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #434455;
+    background-color: f4f4fd;
+}
+
 .page-header {
-
+    background-color: white;
 }
 
-page-header page-nav {
-
+.nav-list:hover, .nav-list:focus,
+.contacts:hover, .contacts:focus {
+    color: #404bbf;
 }
 
+.web-logo {
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+
+line-height: 1.16667;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+
+.studio-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+font-size: 18px;
+ 
+line-height: 1.16667;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2e2f42;
+}
+
+.contacts {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.hero {
+    background-color: #2E2F42;
+}
+
+.main-title {
+font-weight: 700;
+font-size: 56px;
+
+/* line-height: 60px; */ 
+line-height: 1.07143;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.section-title {
+    font-weight: 700;
+    text-align: center;
+}
+
+.title {
+    font-weight: inherited;
+}
+
+.buttons {
+font-family: inherit;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+padding: 10px 20px;
+cursor: pointer;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #4d5ae5;
+}
+
+.team {
+    background-color: #f4f4fd;
+    text-align: center;
+}
+
+.teammates {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background-color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-end-logo {
+    font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+
+line-height: 1.16667;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #f4f4fd;
+}
+
+.text-footer {
+font-weight: 400;
+font-size: 16px;
+
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+}
